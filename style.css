@@ -94,12 +94,17 @@ nav>ul>li>a:hover {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    
+
 }
-.main{
+
+.main {
     background-color: #555;
     color: white;
 }
+.moredetail{
+    font-size: smaller;
+}
+
 .devinfo {
     display: flex;
     /* border: 2px solid; */
@@ -114,7 +119,7 @@ img {
     border-radius: 8px;
     border: 1px solid #ddd;
     padding: 2px;
-    width: 525px;
+    width: 483px;
     /* opacity: 1;
   display: block;
   width: 100%;
@@ -201,18 +206,22 @@ input[type="text"] {
 
 .contactme {
     text-align: center;
-    padding: 8px;margin: 4px 2px;
-    
+    padding: 8px;
+    margin: 4px 2px;
+
 }
-.submitbutton{
+
+.submitbutton {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .submitbtn:hover {
     background-color: rgb(110, 145, 145);
     color: black;
 }
-.submitbtn{
+
+.submitbtn {
     height: 47px;
     width: 149px;
     background-color: #1b2d34;
@@ -222,6 +231,7 @@ input[type="text"] {
     cursor: pointer;
     font-size: large;
 }
+
 /* *********Intro Page Style*********  */
 .main_intro {
     display: flex;
@@ -235,15 +245,16 @@ input[type="text"] {
 }
 
 .intro_head {
-    text-align:justify;
+    text-align: justify;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-right: 5rem;
     padding-left: 2rem;
-    
+
 }
-.aboutmeintro{
+
+.aboutmeintro {
     padding-left: 20px;
-    
+
 }
 
 .html {
@@ -252,86 +263,88 @@ input[type="text"] {
     width: 30rem;
     border-radius: 1rem;
     color: white;
-    text-align:center;
+    text-align: center;
     margin-left: 45px;
 }
 
 .css {
     height: 1.2rem;
-    background-color:rgb(237, 45, 45);
+    background-color: rgb(237, 45, 45);
     width: 28rem;
     border-radius: 1rem;
     color: white;
-    text-align:center;
+    text-align: center;
     margin-left: 54px;
 }
 
 .javascript {
     height: 1.2rem;
-    background-color:rgb(226, 226, 121);
+    background-color: rgb(226, 226, 121);
     width: 24rem;
     border-radius: 1rem;
     color: white;
-    text-align:center;
+    text-align: center;
 }
 
 .java {
     height: 1.2rem;
-    background-color:#008CBA;
+    background-color: #008CBA;
     width: 32rem;
     border-radius: 1rem;
     color: white;
-    text-align:center;
+    text-align: center;
     margin-left: 52px;
 }
 
 .sql {
     height: 1.2rem;
-    background-color:rgb(237, 45, 45);
+    background-color: rgb(237, 45, 45);
     width: 28rem;
     border-radius: 1rem;
     color: white;
-    text-align:center;
+    text-align: center;
     margin-left: 57px;
 }
 
 .python {
     height: 1.2rem;
-    background-color:rgb(226, 226, 121);
+    background-color: rgb(226, 226, 121);
     width: 24rem;
     border-radius: 1rem;
     color: white;
-    text-align:center;
+    text-align: center;
     margin-left: 30px;
 }
 
 .php {
     height: 1.2rem;
-    background-color:#afdeed;
+    background-color: #afdeed;
     width: 27rem;
     border-radius: 1rem;
     color: white;
-    text-align:center;
+    text-align: center;
     margin-left: 56px;
 }
-.skillsectionheading{
+
+.skillsectionheading {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:3px;
-    font-size:large;
+    gap: 3px;
+    font-size: large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 16px;
     padding-left: 16px;
 }
+
 /* **********PROJECT SECTION************ */
-.projectsection{
+.projectsection {
     display: flex;
-    gap:22px;
+    gap: 22px;
     flex-wrap: wrap;
 }
 
-.project{
+.project {
     height: 280px;
     width: 250px;
     border: 2px solid;
@@ -339,13 +352,15 @@ input[type="text"] {
     border-radius: 8px;
     padding: 8px;
 }
-.project{
+
+.project {
     display: flex;
-    flex-direction:column;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
 }
-.project1{
+
+.project1 {
     height: 280px;
     width: 250px;
     border: 2px solid;
@@ -353,11 +368,12 @@ input[type="text"] {
     border-radius: 8px;
     padding: 8px;
     display: flex;
-    flex-direction:column;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
     gap: 23px;
 }
-.project2{
+
+.project2 {
     height: 280px;
     width: 250px;
     border: 2px solid;
@@ -365,11 +381,12 @@ input[type="text"] {
     border-radius: 8px;
     padding: 8px;
     display: flex;
-    flex-direction:column;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
     gap: 38px;
 }
-.project3{
+
+.project3 {
     height: 280px;
     width: 250px;
     border: 2px solid;
@@ -377,11 +394,12 @@ input[type="text"] {
     border-radius: 8px;
     padding: 8px;
     display: flex;
-    flex-direction:column;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
     gap: 28px;
 }
-.project4{
+
+.project4 {
     height: 290px;
     width: 250px;
     border: 2px solid;
@@ -389,19 +407,21 @@ input[type="text"] {
     border-radius: 8px;
     padding: 8px;
     display: flex;
-    flex-direction:column;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
     gap: 23px;
 }
+
 /* .project > img{
     height: 230px;
     width: 230px;
     border-radius: 50%;
 } */
-.gitbtn{
-    align-self:baseline;
-    
+.gitbtn {
+    align-self: baseline;
+
 }
+
 button {
     appearance: none;
     background-color: #FAFBFC;
@@ -426,35 +446,128 @@ button {
     vertical-align: middle;
     white-space: nowrap;
     word-wrap: break-word;
-   }
-   
-   button:hover {
+}
+
+button:hover {
     background-color: #F3F4F6;
     text-decoration: none;
     transition-duration: 0.1s;
-   }
-   
-   button:disabled {
+}
+
+button:disabled {
     background-color: #FAFBFC;
     border-color: rgba(27, 31, 35, 0.15);
     color: #959DA5;
     cursor: default;
-   }
-   
-   button:active {
+}
+
+button:active {
     background-color: #EDEFF2;
     box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
     transition: none 0s;
-   }
-   
-   button:focus {
+}
+
+button:focus {
     outline: 1px transparent;
-   }
-   
-   button:before {
+}
+
+button:before {
     display: none;
-   }
-   
-   button:-webkit-details-marker {
+}
+
+button:-webkit-details-marker {
     display: none;
-   }
+}
+
+.serviceheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    gap: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;
+    font-size:large;
+   
+}
+
+.service_container {
+    /* border:2px solid black; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #555;
+    color: white;
+}
+
+.servicecardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    padding: 10px;
+    align-items: center;
+}
+
+.servicescard {
+    height: 269px;
+    width: 400px;
+    background-color:#EDEFF2;
+    color: #1b2d34;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.servicescard{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap:28px;
+    padding: 16px;
+    border-radius: 8px;
+}
+/* img{
+    width: 155px;
+    height: 108px;
+    border-radius: 1.2rem;
+} */
+.image{
+    width: 155px;
+    height: 108px;
+    border-radius: 1.2rem;
+}
+/* *********Blog Section Style***** */
+.blogcontainer{
+    display: flex;
+    flex-direction:column;
+    gap:16px;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100vw;
+    background-color: #555;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blog_container_header{
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+    padding: 20px;
+    /* border: 2px solid; */
+}
+.blog_body_container{
+    /* border: 2px solid; */
+    display: flex;
+    padding: 40px;
+    flex-direction:column;
+    gap:20px;
+}
+.blog_card{
+    display: flex;
+    flex-direction:column;
+    gap:16px;
+    align-items: center;
+    /* border: 2px solid; */
+    padding: 8px;
+    background-color:#04AA6D;
+    border-radius: 8px;
+}
